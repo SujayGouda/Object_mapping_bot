@@ -1,0 +1,14 @@
+<?xml version="1.0"?>
+<launch>
+
+
+  <arg name="map_file" default="/home/suj/catkin_ws/src/pub_obj/map/finall.yaml"/>
+
+  <!-- Run the map server -->
+  <node name="map_server" pkg="map_server" type="map_server" args="$(arg map_file)" />
+
+<node pkg="rosbag" type="play" name="player" output="screen" args="-l -q /home/suj/catkin_ws/src/pub_obj/map/objects/subset_final.bag"/>
+
+ <node type="rviz" name="rviz" pkg="rviz" args="-d /home/suj/catkin_ws/src/pub_obj/rviz/rviz.rviz" />
+
+</launch>
