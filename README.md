@@ -39,7 +39,7 @@ roslaunch gazebo_demo demo.launch
 ```
 * To save the map use:
 ```bash
-rosrun map_server map_saver -f ~/my_map
+rosrun map_server map_saver -f ~/your_workspace/pub_obj/map/my_map
 ```
 * To recall the map saved with semantic objects use:
 ```bash
