@@ -3,6 +3,7 @@
 Description:
 ROS implementation of Semantic SLAM based Object detection and Object Mapping Bot, using the combination of sensors (Kinect, Camera), Tensorflow single shot detection, with a two-wheeled differential drive robot
 
+[![Watch the video](https://img.youtube.com/vi/-H25q_Vcol8/default.jpg)](https://www.youtube.com/watch?v=uv7T1tmgn-U)
 
 
 ## Dependencies
@@ -39,7 +40,7 @@ roslaunch gazebo_demo demo.launch
 ```
 * To save the map use:
 ```bash
-rosrun map_server map_saver -f ~/your_workspace/pub_obj/map/my_map
+rosrun map_server map_saver -f ~/my_map
 ```
 * To recall the map saved with semantic objects use:
 ```bash
