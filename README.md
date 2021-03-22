@@ -33,11 +33,11 @@ pip install -e object_detector_ssd_tf_ros
 4. Unzip SSD weights in `object_map/object_detector_ssd_tf_ros/ssd/model/ssd_300_vgg.ckpt.zip`
 
 ## Running
-* For a demo of hector_slam, object detection, object mapping use:
+* For a demo of slam, object detection, object mapping use:
 ```bash
 roslaunch gazebo_demo demo.launch
 ```
-* To save the map into pgm and yaml use:
+* To save the map use:
 ```bash
 rosrun map_server map_saver -f ~/my_map
 ```
