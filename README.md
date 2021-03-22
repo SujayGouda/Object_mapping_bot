@@ -1,4 +1,4 @@
-# semantic_slam_mapping_bot
+# semantic_object_mapping_bot
 
 Description:
 ROS implementation of Semantic SLAM based Object detection and Object Mapping Bot, using the combination of sensors (Kinect, Camera), Tensorflow single shot detection, with a two-wheeled differential drive robot
