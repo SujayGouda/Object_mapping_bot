@@ -14,6 +14,7 @@ The following python packges are required:
 * openCV
 * TensorFlow 1.1* (GPU version)
 * hector_mapping (http://wiki.ros.org/hector_mapping)
+* depthimage_to_laserscan (http://wiki.ros.org/depthimage_to_laserscan)
 * currently tested in ros melodic in ubuntu 18.04
 
 ## Setup
@@ -40,7 +41,7 @@ roslaunch gazebo_demo demo.launch
 ```bash
 rosrun map_server map_saver -f ~/my_map
 ```
-* To recall the map saved with semantic object mapping use:
+* To recall the map saved with semantic objects use:
 ```bash
 roslaunch pub_obj default.launch
 ```
