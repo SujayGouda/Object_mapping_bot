@@ -139,8 +139,8 @@ roslaunch pub_obj default.launch
 
 ### Gazebo world
 <p float="left">
-  <img src="https://github.com/SujayGouda/Object_mapping_bot/blob/main/images/gazebo_world_top_view.png" width="100" />
-  <img src="https://github.com/SujayGouda/Object_mapping_bot/blob/main/images/gazebo_world_side_view.png" width="100" /> 
+  <img src="https://github.com/SujayGouda/Object_mapping_bot/blob/main/images/gazebo_world_top_view.png" width="300" height="1000" />
+  <img src="https://github.com/SujayGouda/Object_mapping_bot/blob/main/images/gazebo_world_side_view.png" width="800" height="1000" /> 
 </p>
 ![alt text](https://github.com/SujayGouda/Object_mapping_bot/blob/main/images/gazebo_world_top_view.png)
 ![alt text](https://github.com/SujayGouda/Object_mapping_bot/blob/main/images/gazebo_world_side_view.png)
