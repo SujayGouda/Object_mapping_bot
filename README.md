@@ -141,7 +141,7 @@ roslaunch pub_obj default.launch
 <p float="left">
   <img src="https://github.com/SujayGouda/Object_mapping_bot/blob/main/images/gazebo_world_top_view.png" width="294" height="665" />
 
-  <img src="https://github.com/SujayGouda/Object_mapping_bot/blob/main/images/gazebo_world_side_view.png" width="1080" height="700" /> 
+  <img src="https://github.com/SujayGouda/Object_mapping_bot/blob/main/images/gazebo_world_side_view.png" width="780" height="700" /> 
 </p>
 ![alt text](https://github.com/SujayGouda/Object_mapping_bot/blob/main/images/gazebo_world_top_view.png)
 ![alt text](https://github.com/SujayGouda/Object_mapping_bot/blob/main/images/gazebo_world_side_view.png)
