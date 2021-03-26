@@ -129,19 +129,20 @@ roslaunch pub_obj default.launch
 ## Simulaion
 ### Bot
 <img src="https://github.com/SujayGouda/Object_mapping_bot/blob/main/images/robot.png" width="450" height="300">
-Two-wheeled Differential drive\
-RGB-D Camera (Kinect)\
-Two mono cameras\
-![](https://github.com/SujayGouda/Object_mapping_bot/blob/main/images/robot.png | width=100)
-
+Two-wheeled Differential drive\RGB-D Camera (Kinect)\Two mono cameras\
+<p float="left">
+  <img src="https://github.com/SujayGouda/Object_mapping_bot/blob/main/images/robot.png" width="100" />
+  <img src="https://github.com/SujayGouda/Object_mapping_bot/blob/main/images/robot.png" width="100" /> 
+  <img src="https://github.com/SujayGouda/Object_mapping_bot/blob/main/images/robot.png" width="100" />
+</p>
 ### Gazebo world
 ![alt text](https://github.com/SujayGouda/Object_mapping_bot/blob/main/images/gazebo_world_top_view.png)
 ![alt text](https://github.com/SujayGouda/Object_mapping_bot/blob/main/images/gazebo_world_side_view.png)
 
 ### Rviz visualization
-#### Tensorflow SSD object detection 
+#### Tensorflow SSD object detection: 
 
-#### Semantic objects mapping
+#### Semantic objects mapping:
 ![alt text](https://github.com/SujayGouda/Object_mapping_bot/blob/main/images/rviz_top_view.png)
 ![alt text](https://github.com/SujayGouda/Object_mapping_bot/blob/main/images/rviz_side_view1.png)
 ![alt text](https://github.com/SujayGouda/Object_mapping_bot/blob/main/images/rviz_side_view2.png)
