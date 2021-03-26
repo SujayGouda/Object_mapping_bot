@@ -19,10 +19,10 @@ The following python packges are required:
 * depthimage_to_laserscan (http://wiki.ros.org/depthimage_to_laserscan)
 * currently tested in ros melodic in ubuntu 18.04
 
-## ROS-rqt-graph
+## rqt-graph
 ![alt text](https://github.com/SujayGouda/Object_mapping_bot/blob/main/rosgraph.png)
 
-## ROS-Nodes list
+## Nodes list
 /Publish_object_to_rviz_node\
 /gazebo\
 /gazebo_gui\
@@ -34,7 +34,7 @@ The following python packges are required:
 /rosout\
 /world_map_static_broadcaster\
 
-## ROS-Topics list
+## Topics list
 /OB_Points\
 /Objects\
 /Theta_List\
