@@ -127,6 +127,7 @@ roslaunch pub_obj default.launch
 /tf_static\
 
 ## Simulation
+
 ### Bot:
 <img src="https://github.com/SujayGouda/Object_mapping_bot/blob/main/images/robot.png" width="450" height="300">
 
@@ -135,13 +136,12 @@ roslaunch pub_obj default.launch
 * RGB-D Camera (Kinect)
 * Two mono cameras
 
-<p float="left">
-  <img src="https://github.com/SujayGouda/Object_mapping_bot/blob/main/images/robot.png" width="100" />
-  <img src="https://github.com/SujayGouda/Object_mapping_bot/blob/main/images/robot.png" width="100" /> 
-  <img src="https://github.com/SujayGouda/Object_mapping_bot/blob/main/images/robot.png" width="100" />
-</p>
 
 ### Gazebo world
+<p float="left">
+  <img src="https://github.com/SujayGouda/Object_mapping_bot/blob/main/images/gazebo_world_top_view.png" width="100" />
+  <img src="https://github.com/SujayGouda/Object_mapping_bot/blob/main/images/gazebo_world_side_view.png" width="100" /> 
+</p>
 ![alt text](https://github.com/SujayGouda/Object_mapping_bot/blob/main/images/gazebo_world_top_view.png)
 ![alt text](https://github.com/SujayGouda/Object_mapping_bot/blob/main/images/gazebo_world_side_view.png)
 
