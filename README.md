@@ -130,6 +130,9 @@ roslaunch pub_obj default.launch
 ### Bot
 <img src="https://github.com/SujayGouda/Object_mapping_bot/blob/main/images/robot.png" width="450" height="300">
 Two-wheeled Differential drive\RGB-D Camera (Kinect)\Two mono cameras\
+/syscommand\
+/tf\
+/tf_static\
 <p float="left">
   <img src="https://github.com/SujayGouda/Object_mapping_bot/blob/main/images/robot.png" width="100" />
   <img src="https://github.com/SujayGouda/Object_mapping_bot/blob/main/images/robot.png" width="100" /> 
