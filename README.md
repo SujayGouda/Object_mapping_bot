@@ -146,9 +146,9 @@ roslaunch pub_obj default.launch
 ![alt text](https://github.com/SujayGouda/Object_mapping_bot/blob/main/images/gazebo_world_side_view.png)
 
 ### Rviz visualization
-#### Tensorflow SSD object detection: 
+#### * Tensorflow SSD object detection: 
 
-#### Semantic objects mapping:
+#### * Semantic objects mapping:
 ![alt text](https://github.com/SujayGouda/Object_mapping_bot/blob/main/images/rviz_top_view.png)
 ![alt text](https://github.com/SujayGouda/Object_mapping_bot/blob/main/images/rviz_side_view1.png)
 ![alt text](https://github.com/SujayGouda/Object_mapping_bot/blob/main/images/rviz_side_view2.png)
