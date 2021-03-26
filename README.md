@@ -35,8 +35,7 @@ The following python packges are required:
 /world_map_static_broadcaster
 
 ## ROS-Topics list
-/OB_Points
-/Objects
+/OB_Points  /Objects
 /Theta_List
 /camera/camera_info
 /camera/image_raw
