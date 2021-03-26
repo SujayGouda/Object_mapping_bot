@@ -129,6 +129,7 @@ roslaunch pub_obj default.launch
 ## Simulation
 ### Bot:
 <img src="https://github.com/SujayGouda/Object_mapping_bot/blob/main/images/robot.png" width="450" height="300">
+
 ### Description:
 * Two-wheeled Differential drive
 * RGB-D Camera (Kinect)
@@ -139,6 +140,7 @@ roslaunch pub_obj default.launch
   <img src="https://github.com/SujayGouda/Object_mapping_bot/blob/main/images/robot.png" width="100" /> 
   <img src="https://github.com/SujayGouda/Object_mapping_bot/blob/main/images/robot.png" width="100" />
 </p>
+
 ### Gazebo world
 ![alt text](https://github.com/SujayGouda/Object_mapping_bot/blob/main/images/gazebo_world_top_view.png)
 ![alt text](https://github.com/SujayGouda/Object_mapping_bot/blob/main/images/gazebo_world_side_view.png)
