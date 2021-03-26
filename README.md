@@ -19,6 +19,83 @@ The following python packges are required:
 * depthimage_to_laserscan (http://wiki.ros.org/depthimage_to_laserscan)
 * currently tested in ros melodic in ubuntu 18.04
 
+## ROS-rqt-graph
+![alt text](https://github.com/SujayGouda/Object_mapping_bot/blob/main/rosgraph.png)
+
+## ROS-Nodes list
+/Publish_object_to_rviz_node
+/gazebo
+/gazebo_gui
+/hector_mapping
+/object_detection_node
+/object_detector_ssd_node
+/object_mapper_node
+/publisher_state_pub
+/rosout
+/world_map_static_broadcaster
+
+## ROS-Topics list
+/OB_Points
+/Objects
+/Theta_List
+/camera/camera_info
+/camera/image_raw
+/camera/image_raw/compressed
+/camera/image_raw/compressed/parameter_descriptions
+/camera/image_raw/compressed/parameter_updates
+/camera/image_raw/compressedDepth
+/camera/image_raw/compressedDepth/parameter_descriptions
+/camera/image_raw/compressedDepth/parameter_updates
+/camera/image_raw/theora
+/camera/image_raw/theora/parameter_descriptions
+/camera/image_raw/theora/parameter_updates
+/camera/parameter_descriptions
+/camera/parameter_updates
+/camera_up/camera_info_up
+/camera_up/image_raw_up
+/camera_up/image_raw_up/compressed
+/camera_up/image_raw_up/compressed/parameter_descriptions
+/camera_up/image_raw_up/compressed/parameter_updates
+/camera_up/image_raw_up/compressedDepth
+/camera_up/image_raw_up/compressedDepth/parameter_descriptions
+/camera_up/image_raw_up/compressedDepth/parameter_updates
+/camera_up/image_raw_up/theora
+/camera_up/image_raw_up/theora/parameter_descriptions
+/camera_up/image_raw_up/theora/parameter_updates
+/camera_up/parameter_descriptions
+/camera_up/parameter_updates
+/clock
+/cmd_vel
+/gazebo/link_states
+/gazebo/model_states
+/gazebo/parameter_descriptions
+/gazebo/parameter_updates
+/gazebo/set_link_state
+/gazebo/set_model_state
+/im_info
+/initialpose
+/joint_states
+/kinect/color/camera_info
+/kinect/depth/camera_info
+/kinect/depth/image_raw
+/kinect/depth/points
+/kinect/parameter_descriptions
+/kinect/parameter_updates
+/map
+/map_metadata
+/object_mapped_values
+/odom
+/poseupdate
+/rosout
+/rosout_agg
+/scan
+/slam_cloud
+/slam_out_pose
+/ssd_image_output
+/syscommand
+/tf
+/tf_static
+
 ## Setup
 1. Download repository to your catkin workspace:
 ```bash
