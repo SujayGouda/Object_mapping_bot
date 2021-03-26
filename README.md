@@ -146,5 +146,5 @@ roslaunch pub_obj default.launch
 #### * Semantic objects mapping:
 ![alt text](https://github.com/SujayGouda/Object_mapping_bot/blob/main/images/rviz_top_view.png)
 ![alt text](https://github.com/SujayGouda/Object_mapping_bot/blob/main/images/rviz_side_view1.png)
-<img src="https://github.com/SujayGouda/Object_mapping_bot/blob/main/images/robot.png" width="1400">
+<img src="https://github.com/SujayGouda/Object_mapping_bot/blob/main/images/rrviz_side_view1.png" width="1400">
 ![alt text](https://github.com/SujayGouda/Object_mapping_bot/blob/main/images/rviz_side_view2.png)
