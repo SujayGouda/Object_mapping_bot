@@ -128,7 +128,7 @@ roslaunch pub_obj default.launch
 
 ## Simulaion
 ### Bot
-<img src="https://github.com/SujayGouda/Object_mapping_bot/blob/main/images/robot.png" width="100" height="100">
+<img src="https://github.com/SujayGouda/Object_mapping_bot/blob/main/images/robot.png" width="250" height="250">
 Two-wheeled Differential drive\
 RGB-D Camera (Kinect)\
 Two mono cameras\
