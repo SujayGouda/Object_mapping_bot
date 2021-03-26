@@ -128,13 +128,19 @@ roslaunch pub_obj default.launch
 
 ## Simulaion
 ### Bot
+Two-wheeled Differential drive\
+RGB-D Camera (Kinect)
+Two mono cameras
 ![alt text](https://github.com/SujayGouda/Object_mapping_bot/blob/main/images/robot.png)
 
 ### Gazebo world
 ![alt text](https://github.com/SujayGouda/Object_mapping_bot/blob/main/images/gazebo_world_top_view.png)
 ![alt text](https://github.com/SujayGouda/Object_mapping_bot/blob/main/images/gazebo_world_side_view.png)
 
-### Semantic objects simulate map Rviz
+### Rviz visualization
+#### Tensorflow SSD object detection 
+
+#### Semantic objects mapping
 ![alt text](https://github.com/SujayGouda/Object_mapping_bot/blob/main/images/rviz_top_view.png)
 ![alt text](https://github.com/SujayGouda/Object_mapping_bot/blob/main/images/rviz_side_view1.png)
 ![alt text](https://github.com/SujayGouda/Object_mapping_bot/blob/main/images/rviz_side_view2.png)
