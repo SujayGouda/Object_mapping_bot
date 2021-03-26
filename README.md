@@ -23,16 +23,16 @@ The following python packges are required:
 ![alt text](https://github.com/SujayGouda/Object_mapping_bot/blob/main/rosgraph.png)
 
 ## ROS-Nodes list
-/Publish_object_to_rviz_node
-/gazebo
-/gazebo_gui
-/hector_mapping
-/object_detection_node
-/object_detector_ssd_node
-/object_mapper_node
-/publisher_state_pub
-/rosout
-/world_map_static_broadcaster
+/Publish_object_to_rviz_node\
+/gazebo\
+/gazebo_gui\
+/hector_mapping\
+/object_detection_node\
+/object_detector_ssd_node\
+/object_mapper_node\
+/publisher_state_pub\
+/rosout\
+/world_map_static_broadcaster\
 
 ## ROS-Topics list
 /OB_Points  /Objects
