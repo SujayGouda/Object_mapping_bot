@@ -15,10 +15,40 @@ The following python packges are required:
 * sciPy
 * openCV
 * TensorFlow 1.1* (GPU version)
+
+## ROS-Packages
 * hector_mapping (http://wiki.ros.org/hector_mapping)
 * depthimage_to_laserscan (http://wiki.ros.org/depthimage_to_laserscan)
 * currently tested in ros melodic in ubuntu 18.04
 
+## Setup
+1. Download repository to your catkin workspace:
+```bash
+git clone https://github.com/or-tal-robotics/object_map.git
+```
+2. Build:
+```bash
+catkin_make
+```
+3. Install SSD image detector for ROS:
+```bash
+pip install -e object_detector_ssd_tf_ros
+```
+4. Unzip SSD weights in `object_map/object_detector_ssd_tf_ros/ssd/model/ssd_300_vgg.ckpt.zip`
+
+## Running
+* For a demo of slam, object detection, object mapping use:
+```bash
+roslaunch gazebo_demo demo.launch
+```
+* To save the map use:
+```bash
+rosrun map_server map_saver -f ~/my_map
+```
+* To recall the map saved with semantic objects use:
+```bash
+roslaunch pub_obj default.launch
+```
 ## rqt-graph
 ![alt text](https://github.com/SujayGouda/Object_mapping_bot/blob/main/rosgraph.png)
 
@@ -96,32 +126,15 @@ The following python packges are required:
 /tf\
 /tf_static\
 
-## Setup
-1. Download repository to your catkin workspace:
-```bash
-git clone https://github.com/or-tal-robotics/object_map.git
-```
-2. Build:
-```bash
-catkin_make
-```
-3. Install SSD image detector for ROS:
-```bash
-pip install -e object_detector_ssd_tf_ros
-```
-4. Unzip SSD weights in `object_map/object_detector_ssd_tf_ros/ssd/model/ssd_300_vgg.ckpt.zip`
+## Simulaion
+### Bot
+![alt text](https://github.com/SujayGouda/Object_mapping_bot/blob/main/images/robot.png)
 
-## Running
-* For a demo of slam, object detection, object mapping use:
-```bash
-roslaunch gazebo_demo demo.launch
-```
-* To save the map use:
-```bash
-rosrun map_server map_saver -f ~/my_map
-```
-* To recall the map saved with semantic objects use:
-```bash
-roslaunch pub_obj default.launch
-```
+### Gazebo world
+![alt text](https://github.com/SujayGouda/Object_mapping_bot/blob/main/images/gazebo_world_top_view.png)
+![alt text](https://github.com/SujayGouda/Object_mapping_bot/blob/main/images/gazebo_world_side_view.png)
 
+### Semantic objects simulate map Rviz
+![alt text](https://github.com/SujayGouda/Object_mapping_bot/blob/main/images/rviz_top_view.png)
+![alt text](https://github.com/SujayGouda/Object_mapping_bot/blob/main/images/rviz_side_view1.png)
+![alt text](https://github.com/SujayGouda/Object_mapping_bot/blob/main/images/rviz_side_view2.png)
