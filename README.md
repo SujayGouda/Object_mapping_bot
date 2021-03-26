@@ -131,7 +131,7 @@ roslaunch pub_obj default.launch
 Two-wheeled Differential drive\
 RGB-D Camera (Kinect)
 Two mono cameras
-![alt text](https://github.com/SujayGouda/Object_mapping_bot/blob/main/images/robot.png | width=100)
+![](https://github.com/SujayGouda/Object_mapping_bot/blob/main/images/robot.png | width=100)
 
 ### Gazebo world
 ![alt text](https://github.com/SujayGouda/Object_mapping_bot/blob/main/images/gazebo_world_top_view.png)
