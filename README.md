@@ -47,11 +47,15 @@ pip install -e object_detector_ssd_tf_ros
 ```bash
 roslaunch gazebo_demo demo.launch
 ```
+* Explore the world with keyboard teleop:
+```bash
+rosrun teleop_twist_keyboard teleop_twist_keyboard.py
+```
 * To save the map use:
 ```bash
 rosrun map_server map_saver -f ~/my_map
 ```
-* To recall the map saved with semantic objects use:
+* To view the map saved with semantic objects use:
 ```bash
 roslaunch pub_obj default.launch
 ```
