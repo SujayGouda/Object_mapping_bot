@@ -26,6 +26,12 @@ The following python packges are required:
 ```bash
 git clone https://github.com/or-tal-robotics/object_map.git
 ```
+```bash
+git clone https://github.com/tu-darmstadt-ros-pkg/hector_slam.git
+```
+```bash
+git clone https://github.com/ros-perception/depthimage_to_laserscan.git
+```
 2. Build:
 ```bash
 catkin_make
