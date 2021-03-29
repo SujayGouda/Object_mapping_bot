@@ -24,7 +24,7 @@ The following python packges are required:
 ## Setup
 1. Download repository to your catkin workspace:
 ```bash
-git clone https://github.com/or-tal-robotics/object_map.git
+git clone https://github.com/SujayGouda/Object_mapping_bot.git
 ```
 ```bash
 git clone https://github.com/tu-darmstadt-ros-pkg/hector_slam.git
