@@ -144,10 +144,7 @@ roslaunch pub_obj default.launch
 #### Bot_Description:
 * Two-wheeled Differential drive
 * RGB-D Camera (Kinect)
-* Two mono cameras
-
-
-\\
+* Two mono cameras\
 
 
 ### Gazebo world
