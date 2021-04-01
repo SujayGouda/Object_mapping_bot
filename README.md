@@ -148,17 +148,13 @@ roslaunch pub_obj default.launch
 
 
 \
-\
-\
-\
-\
-\
 
 
 ### Gazebo world
 ![alt text](https://github.com/SujayGouda/Object_mapping_bot/blob/main/images/gazebo_world_side_view.png)
 
 
+\
 
 ### Rviz visualization
 
@@ -168,6 +164,7 @@ object detection node is a VGG based SSD300 architecture with 300 and 512 inputs
 ![alt text](https://github.com/SujayGouda/Object_mapping_bot/blob/main/images/ssd1.png)
 ![alt text](https://github.com/SujayGouda/Object_mapping_bot/blob/main/images/ssd2.png)
 
+\
 
 
 #### * Semantic objects mapping:
