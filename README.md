@@ -136,8 +136,9 @@ roslaunch pub_obj default.launch
 /tf\
 /tf_static\
 
-## Simulation
 <br />
+
+## Simulation
 
 ### Bot:
 <img src="https://github.com/SujayGouda/Object_mapping_bot/blob/main/images/robot.png" width="450" height="300">
@@ -148,6 +149,7 @@ roslaunch pub_obj default.launch
 * Two mono cameras\
 
 <br />
+
 ### Gazebo world
 ![alt text](https://github.com/SujayGouda/Object_mapping_bot/blob/main/images/gazebo_world_side_view.png)
   
@@ -160,7 +162,10 @@ object detection node is a VGG based SSD300 architecture with 300 and 512 inputs
 
 ![alt text](https://github.com/SujayGouda/Object_mapping_bot/blob/main/images/ssd1.png)
 ![alt text](https://github.com/SujayGouda/Object_mapping_bot/blob/main/images/ssd2.png)
+
 <br />
+<br />
+
 
 
 #### * Semantic objects mapping:
