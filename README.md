@@ -155,6 +155,7 @@ roslaunch pub_obj default.launch
   
 
 <br />
+
 ### Rviz visualization
 
 #### * Single Shot MultiBox Detector using TensorFlow:
@@ -165,8 +166,6 @@ object detection node is a VGG based SSD300 architecture with 300 and 512 inputs
 
 <br />
 <br />
-
-
 
 #### * Semantic objects mapping:
 ![alt text](https://github.com/SujayGouda/Object_mapping_bot/blob/main/images/rviz_top_view.png)
