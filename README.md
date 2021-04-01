@@ -147,7 +147,12 @@ roslaunch pub_obj default.launch
 * Two mono cameras
 
 
-
+\
+\
+\
+\
+\
+\
 
 
 ### Gazebo world
