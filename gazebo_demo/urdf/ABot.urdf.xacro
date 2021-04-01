@@ -7,9 +7,9 @@
 
 <!-- RGBD Camera -->
   <gazebo reference="kinect_baselink"> <!-- reference must match the name of the link in the Xacro URDF -->
-    <sensor type="depth" name="camera1"> <!-- The name must be unique from all other sensor names -->
+    <sensor type="depth" name="kinect"> <!-- The name must be unique from all other sensor names -->
         <always_on>1</always_on>
-        <update_rate>20.0</update_rate>
+        <update_rate>30.0</update_rate>
         <visualize>true</visualize>             
         <camera>
             <horizontal_fov>1.047</horizontal_fov>  
@@ -22,26 +22,26 @@
 
             </depth_camera>
             <clip>
-                <near>0.1</near>
+                <near>0.05</near>
                 <far>20</far>
             </clip>
         </camera>
              <!-- link to the camera's shared object file -->
-             <plugin name="camera_controller" filename="libgazebo_ros_openni_kinect.so">
+             <plugin name="kinect_controller" filename="libgazebo_ros_openni_kinect.so">
              <alwaysOn>true</alwaysOn>
-                <updateRate>10.0</updateRate>
+                <updateRate>30.0</updateRate>
                 <!-- namespaces to avoid collision with other topics -->
-                <cameraName>camera</cameraName>
+                <cameraName>kinect</cameraName>
                 <!-- The coordinate frame the point cloud image is published under in the tf tree -->
                 <!-- Rotate this frame in urdf/xacro file if point cloud is not correctly oriented in Rviz -->
-                <frameName>camera_rgbd_frame</frameName>
+                <frameName>camera_link</frameName>
     
             <!--topic the camera will be publishing to (image, info, depth image, point cloud -->         
-            <imageTopicName>rgb/image_raw</imageTopicName>
-            <depthImageTopicName>depth/image_raw</depthImageTopicName>
-            <pointCloudTopicName>depth/points</pointCloudTopicName>
-            <cameraInfoTopicName>rgb/camera_info</cameraInfoTopicName>              
-            <depthImageCameraInfoTopicName>depth/camera_info</depthImageCameraInfoTopicName>
+            <imageTopicName>/camera/image_raw</imageTopicName>
+            <depthImageTopicName>/kinect/depth/image_raw</depthImageTopicName>
+            <pointCloudTopicName>/kinect/depth/points</pointCloudTopicName>
+            <cameraInfoTopicName>/kinect/color/camera_info</cameraInfoTopicName>              
+            <depthImageCameraInfoTopicName>/kinect/depth/camera_info</depthImageCameraInfoTopicName>
          
             <pointCloudCutoff>0.4</pointCloudCutoff>                
                 <hackBaseline>0.07</hackBaseline>
@@ -383,7 +383,7 @@
 </gazebo>
 
   
-  <xacro:property name="hokuyo_link" value="0.05" />
+  <xacro:property name="kinect_baselink" value="0.05" />
 
   <xacro:property name="camera_link" value="0.05" />
 

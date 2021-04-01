@@ -49,7 +49,7 @@
       <!-- change to make sure mesh image is correctly rotated once depth could is rightly alligned -->
        <origin xyz="0 0 0" rpy="-1.57079 0 3.14159"/>
         <geometry>
-         <mesh filename="package://rtab_dumpster/meshes/kinect.dae" scale="1.0 1.0 1.0"/>
+         <mesh filename="package://gazebo_demo/urdf/kinect.dae" scale="1.0 1.0 1.0"/>
         </geometry>
       </visual>
   	  <collision>
