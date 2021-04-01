@@ -147,15 +147,23 @@ roslaunch pub_obj default.launch
 * Two mono cameras
 
 
+
+
+
 ### Gazebo world
 ![alt text](https://github.com/SujayGouda/Object_mapping_bot/blob/main/images/gazebo_world_side_view.png)
 
+
+
 ### Rviz visualization
+
 #### * Single Shot MultiBox Detector using TensorFlow:
 object detection node is a VGG based SSD300 architecture with 300 and 512 inputs, trained on Pascal VOC 2007 dataset for 30 epochs and obtained am accuracy of 83.7% on Training dataset and 77.8% on Testing dataset
 
 ![alt text](https://github.com/SujayGouda/Object_mapping_bot/blob/main/images/ssd1.png)
 ![alt text](https://github.com/SujayGouda/Object_mapping_bot/blob/main/images/ssd2.png)
+
+
 
 #### * Semantic objects mapping:
 ![alt text](https://github.com/SujayGouda/Object_mapping_bot/blob/main/images/rviz_top_view.png)
